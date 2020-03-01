@@ -1,0 +1,239 @@
+body{
+	font-size: 16px;
+	color :#fff;
+	background-color :#61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+@font-face{
+	font-family: glyphicon;
+	src:url(glyphicons-halflings-regular.woff2);
+}
+	#header-nav {
+	background-color:#f6b319 ;
+	border: 0;
+	border-radius: 0;
+}
+#logo-img{
+	height: 150px;
+	width: 150px;
+	margin: 10px;
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+	text-decoration:none;
+}
+#nav-list > a:active {
+    color: #fff;
+}
+.navbar-brand h1{
+	text-shadow: 1px #222;
+	color: #557c3e;
+	line-height: .75;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar-brand p{
+	font-size: .7em;text-transform: uppercase;
+	color: #000;
+	margin-top: 15px;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #951C49;
+}
+#nav-list a:hover{
+	color: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.5em;
+}
+#Phone{
+	margin-top: 5px;
+}
+#Phone a{
+	padding-bottom: 0px;
+	text-align: right;
+}
+#Phone div{
+	text-align: right;
+	padding-right: 15px;
+	color: #557c3e;
+}
+#xs-deliver{
+	font-size: 0.6em;
+}
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar{
+	border: solid 1px #61122f;
+}
+#menu-tile,#special-tile,#map-tile{
+	height: 250px;
+	width: 100%;
+	margin-top: 15px;
+	overflow: hidden;
+	position: relative;
+	border:2px  solid;
+}
+#menu-tile:hover ,#special-tile:hover ,#map-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile span, #special-tile span, #map-tile span,.menu-categories-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+.menu-categories-tile{
+	position: relative;
+    border: 2px solid #3F0C1F;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+.special-tile{
+	position: relative;
+    border: 2px solid #3F0C1F;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin:5px;
+}
+.special-name{
+	font-size: 1.5em;
+}
+#menu-tile{
+	background: url("menu.jfif");
+	background-position: center;
+}
+#special-tile{
+	background: url("special.jfif");
+	background-position: center;
+}
+#address p{
+	font-size: 0.8em;
+	color: #557c3e;
+}
+.panel-footer{
+	background-color: #000;
+	border: 0;
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+.panel-footer div.row{
+	margin-bottom: 30px;
+}
+#address>span ,#hours>span{
+	font-size: 1.3em;
+}
+#quotes{
+	font-style: italic;
+}
+#hours,#address{
+	line-height: 2;
+}
+input[type=text],select,textarea{
+	color: #000;
+	width: 250px;
+}
+select{
+	margin-left: 44px;
+}
+#email{
+	margin-left: 38px;
+}
+textarea{
+	margin-left: 26px;
+}
+@media(min-width: 1200px){
+	.jumbotron{
+		background:url("jumbotron_1200.jpg");
+		height: 675px;
+	}
+}
+@media(min-width: 992px ) and ( max-width: 1199px){
+	#logo-img {
+    height: 75px;
+    width: 50px;
+    margin: 5px;
+}
+.jumbotron{
+		background-image: url("jumbotron_1200.jpg");
+		height: 475px;
+		width: 980px;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.jumbotron{
+		background-image: url("jumbotron_1200.jpg");
+		height: 475px;
+		width: 760px;
+	}
+}
+@media( max-width: 767px){
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p{
+		text-transform: lowercase;
+	}
+	#collapseable-nav a{
+		font-size: 1.23em;
+		text-align: center;
+	}
+	#collapseable-nav a span{
+		font-size: 1em;
+		margin-right: 5px; 
+	}
+	.container .jumbotron{
+		padding: 0px;
+		padding-left: 0px;
+		padding-right:0px; 
+	}
+	.call-btn{
+	font-size: 1.5em;
+	display: block;
+	padding: 10px;
+	border:2px solid #fff;
+	background-color: #f6b319;
+	color: #951C49;
+}
+}
+.team-member {
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-bottom: 1px;
+}
+.team-member .team-image {
+    position: relative;
+    z-index: 2;
+    margin: 20px;
+}
+.img-wrapper {
+    display: block;
+    position: relative;
+    z-index: 1;
+    object-fit: cover;
+    margin: 0px 20px 0px 20px;
+}
+#bill{
+	text-align: center;
+}
+th,td{
+	padding: 10px;
+	border-spacing: 10px;
+}
